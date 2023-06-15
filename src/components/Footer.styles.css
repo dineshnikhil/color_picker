@@ -1,0 +1,17 @@
+.footer_div {
+	background-color: var(--sec_color);
+	color: var(--bg_color);
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+
+	/* width: 100%; */
+	padding: 3% 0;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+	.footer_div {
+		padding: 10% 0;
+		font-size: 1.2rem;
+	}
+}

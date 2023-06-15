@@ -1,0 +1,49 @@
+.action_button {
+	background-color: var(--primary);
+	border: none;
+	border-radius: 1rem;
+
+	margin-top: 4%;
+	margin-left: 5%;
+
+	transition: 0.2s ease-in-out;
+}
+
+.action_button:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.action_button a {
+	text-decoration: none;
+	/* color: var(--color); */
+	/* font-size: 1.2rem; */
+	font-weight: bold;
+	color: #252422;
+}
+
+.default {
+	padding: 3% 12%;
+	font-size: 1.2rem;
+}
+
+.small {
+	padding: 2% 5%;
+	font-size: 1.5rem;
+	color: var(--bg_color);
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+	.action_button {
+		border-radius: 0.6rem;
+	}
+
+	.default {
+		padding: 5% 12%;
+		font-size: 1.2rem;
+	}
+
+	.small {
+		display: none;
+	}
+}
