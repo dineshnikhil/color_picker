@@ -4,7 +4,7 @@ import './ActionButton.styles.css';
 function ActionButton({ content, type, onMode }) {
 	return (
 		<button className={`action_button ${type}`} onClick={onMode}>
-			<a href="#">{content}</a>
+			{content}
 		</button>
 	);
 }

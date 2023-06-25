@@ -7,6 +7,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faCircleInfo } from '@fortawesome/free-solid-svg-icons';
 import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 
 function Nav() {
 	const [mode, setmode] = useState(true);
@@ -38,14 +39,18 @@ function Nav() {
 					onMode={mode_handler}
 				/>
 				<ActionButton content="Login" type="default" />
-				<ActionButton
-					content={<FontAwesomeIcon icon={faGithub} />}
-					type="small"
-				/>
-				<ActionButton
-					content={<FontAwesomeIcon icon={faCircleInfo} />}
-					type="small"
-				/>
+				<a href="https://github.com/dineshnikhil">
+					<ActionButton
+						content={<FontAwesomeIcon icon={faGithub} />}
+						type="small"
+					/>
+				</a>
+				<Link to="/about">
+					<ActionButton
+						content={<FontAwesomeIcon icon={faCircleInfo} />}
+						type="small"
+					/>
+				</Link>
 			</div>
 		</div>
 	);
