@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# ColorPickr
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ColorPickr is a React project designed to assist front-end developers in selecting and copying hexadecimal color codes for their web designs. With an extensive range of shades spanning the entire rainbow spectrum, ColorPickr simplifies the process of color selection, allowing developers to focus on creating visually stunning interfaces.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Vast collection of shades: ColorPickr offers an extensive array of shades, ensuring you have access to a wide range of colors to suit any design requirement.
 
-### `yarn start`
+- Hexadecimal code retrieval: Simply click on any shade, and ColorPickr will instantly provide you with the corresponding hexadecimal code. No more manual conversions or time-consuming searches!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- User-friendly interface: ColorPickr boasts an intuitive and easy-to-navigate design, making the color selection process a breeze for both novice and experienced developers.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Regular updates: Stay up-to-date with the latest trends and color palettes. ColorPickr is regularly updated with new shades and combinations to keep your designs fresh and contemporary.
 
-### `yarn test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `yarn build`
+Before running ColorPickr, ensure you have the following installed:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- node.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- npm
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `yarn eject`
+1. Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+    git clone git@github.com:dineshnikhil/color_picker.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Navigate to the project directory:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+    cd color_picker
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Install the dependencies:
 
-## Learn More
+```bash
+    npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Start the development server:
 
-### Code Splitting
+```bash
+    npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Open your web browser and navigate to [http://localhost:3000](http://localhost:3000)
 
-### Analyzing the Bundle Size
+3. Explore the various shades by clicking on the color boxes. The hexadecimal code for each shade will be copied to your clipboard automatically.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. Customize the project by modifying the code in the /src directory to suit your specific needs.

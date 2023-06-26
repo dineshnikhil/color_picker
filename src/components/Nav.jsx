@@ -30,7 +30,7 @@ function Nav() {
 	return (
 		<div className="nav_div">
 			<div className="nav_child_div">
-				<h2>🌈 Color Pick</h2>
+				<h2>🌈 ColorPickr</h2>
 			</div>
 			<div className="nav_child_div">
 				<ActionButton
