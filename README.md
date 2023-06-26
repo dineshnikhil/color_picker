@@ -1,4 +1,4 @@
-# 🌈ColorPickr
+# 🌈 ColorPickr
 
 ColorPickr is a React project designed to assist front-end developers in selecting and copying hexadecimal color codes for their web designs. With an extensive range of shades spanning the entire rainbow spectrum, ColorPickr simplifies the process of color selection, allowing developers to focus on creating visually stunning interfaces.
 
